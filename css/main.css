@@ -1,0 +1,286 @@
+@font-face {
+    font-family: "catull";
+    src: url("../font/Catull.ttf");
+}
+
+@font-face {
+    font-family: "flat";
+    src: url("../font/Sertif.otf");
+}
+@font-face {
+    font-family: "sign";
+    src: url("../font/sign.ttf");
+}
+.no-marge {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.color-nav {
+    background-image: linear-gradient(60deg, #2b2b2b, #00897b);
+}
+
+.icon-nav {
+    width: 26%;
+    position: absolute;
+    z-index: 1;
+}
+
+ul {
+    right: 0;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-top: 2.5em;
+}
+
+a {
+    color: white;
+    font-family: "catull";
+    padding: 38px 60px 11px 20px;
+    font-weight: bold;
+     font-size: 22px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    text-decoration: none;
+}
+
+a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.marg-special {
+    margin-right: -28px;
+}
+
+.banner {
+    background-size: cover;
+    width: 100%;
+    height: 820px;
+}
+
+.googlecover {
+    background-image: url(../img/googlecover.jpg);
+    background-size: cover;
+    height: 820px;
+}
+
+.tribut-title {
+    text-align: center;
+    color: #bdbdbd;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 4px 3px black;
+    margin-top: 4em;
+    font-size: 80px;
+}
+
+
+/* nav responsive*/
+
+
+/* mobile bar view */
+
+
+/* KINGS*/
+.king{
+  text-align: center;
+  padding: 1.2em;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+      text-shadow: 5px 4px 11px #313131;
+}
+.cadre-king{
+    background-color: rgba(51, 167, 82, 0.61);
+}
+
+
+/* Larry*/
+
+.title-larry {
+    background-color: #4285f4;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0.5px;
+}
+
+.cadre-larry {
+    margin-top: 3em;
+    /*background-color: #a6cb8c;*/
+}
+
+.img-larry {
+height: 36vh;
+    margin: auto;
+}
+.img-larry:before {
+  left: -5px;
+	top: 167px;
+	width: 280px;
+	height: 4px;
+	background: #aaa;
+
+	border-radius: 140px / 2px;
+	box-shadow: 0 0 5px #aaa, 0 0 10px #888, 0 0 15px #666;
+}
+.img-larry:after{
+
+  left: 8px;
+	top: 168px;
+	width: 255px;
+	height: 2px;
+	background: #666;
+
+	border-radius: 125px / 1px;
+	box-shadow: 0 0 5px #444, 0 0 8px #333, 0 0 10px #666;
+}
+
+
+
+
+
+
+/* */
+
+.sergei-img {
+  margin: auto;
+  height: 36vh;
+}
+
+.title-sergei {
+    background-color: #ea4335;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0.5px;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.marge-to{
+  margin-top: 2em;
+}
+
+/*  Commencement*/
+
+.cadre-start {
+    position: relative;
+    background-color: #fbbc05;
+}
+
+.title-start {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+dt {
+    font-weight: 700;
+    text-align: center;
+}
+
+.accordion {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.accordion dt {
+  color: #fff;
+padding: 10px 15px;
+background: #FF8A65;
+border-bottom: 1px dashed#333333;
+cursor: pointer;
+font: 300 20px 'open sans', sans-serif;
+-webkit-transition: all .1s linear;
+-o-transition: all .1s linear;
+-moz-transition: all .1s linear;
+transition: all .1s linear;
+font-weight: bold;
+}
+
+.accordion dt.active {
+    color: #ccc;
+    background: #333;
+}
+
+.accordion dt:after {
+    content: "+";
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 0 7px;
+    margin-left: 20px;
+    background-color: #34a853;
+    color: white;
+    right: 35%;
+    position: absolute;
+}
+
+.accordion dt.active:after {
+    content: "-";
+    font-size: 20px;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 0 7px;
+    margin-left: 20px;
+    background-color: #ea4335;
+    color: white;
+}
+
+.accordion dd {
+    font: 400 15px 'open sans', sans-serif;
+    background: #EAEAEA;
+    color: #333;
+    -webkit-box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.75);
+    margin: 8px 2px;
+    padding: 10px;
+}
+
+/* footer*/
+
+footer{
+  background-color: #505050;
+      height: 20vh;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 940px) {
+    .text {
+        margin-top: 40px;
+        padding: 1em;
+        font-size: 37px;
+    }
+    a{
+          font-size: 28px;
+    }
+}
+
+.end{
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  line-height: 110px;
+  font-family: 'sign';
+}
+.end2{
+    color: black;
+    text-align: center;
+    font-family: 'sign';
+
+}
